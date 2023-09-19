@@ -344,9 +344,9 @@
   - name: Currency
     title: Currency
     type: field_filter
-    default_value: USD
+    #default_value: USD
     allow_multiple_values: true
-    required: true
+    required: false
     ui_config:
       type: dropdown_menu
       display: inline
